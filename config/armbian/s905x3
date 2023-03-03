@@ -5,6 +5,7 @@
 BASE_ARCH="arm64"
 
 # Image source
+BASE_DISTRO="Armbian"
 DOWNLOAD_URL_CHECKSUM="https://github.com/xand3r40r93/MainsailOS/raw/develop/sum"
 DOWNLOAD_URL_IMAGE="https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_bullseye_03.01.0150/Armbian_23.02.0_amlogic_s905x3_bullseye_5.15.96_server_2023.03.01.img.gz"
 
