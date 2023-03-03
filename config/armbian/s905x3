@@ -11,5 +11,6 @@ DOWNLOAD_URL_IMAGE="https://github.com/ophub/amlogic-s9xxx-armbian/releases/down
 
 # export Variables
 export BASE_ARCH
+export BASE_DISTRO
 export DOWNLOAD_URL_CHECKSUM
 export DOWNLOAD_URL_IMAGE
