@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Shebang for better file detection
+# shellcheck enable=require-variable-braces
+
+BASE_ARCH="arm64"
+
+# Image source
+DOWNLOAD_URL_CHECKSUM="https://github.com/xand3r40r93/MainsailOS/raw/develop/sum"
+DOWNLOAD_URL_IMAGE="https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_bullseye_03.01.0150/Armbian_23.02.0_amlogic_s905x3_bullseye_5.15.96_server_2023.03.01.img.gz"
+
+# export Variables
+export BASE_ARCH
+export DOWNLOAD_URL_CHECKSUM
+export DOWNLOAD_URL_IMAGE
